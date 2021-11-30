@@ -1,10 +1,16 @@
 .App {
   text-align: center;
+  margin: 30px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.spaced {
+  display: flex;
+  justify-content: space-around;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +41,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+.picturesCeleb {
+  width: 100px;
+  height: auto;
 }
